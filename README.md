@@ -1,6 +1,5 @@
 # estacionamento
 
-Teste Raro Labs
 
 ## Getting Started
 
