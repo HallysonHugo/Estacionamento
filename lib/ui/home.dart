@@ -54,31 +54,8 @@ class HomePage extends StatelessWidget {
                               crossAxisSpacing: 5,
                             ),
                             children: [
-                            
                                   menu('images/car-parking.png', 'Vagas', 20,vagasPage),
                                   menu('images/history.png', 'Historico de Vagas', 20,relatoriosPage)
-
-                                  /*
-                                  ElevatedButton(
-                                    onPressed: ()async{
-                                      await getVagas();
-                              
-                                      Get.to(()=>VagasPage());
-                                    },
-                                    child: const Text('Vagas'),
-                                  ),
-                                  ElevatedButton(
-                                    onPressed: ()async{
-                                  // await dbHelper.getVagas('delete from $historicoTable');
-                                  // await dbHelper.getVagas('delete from $estacionamentoTable');
-                                    // ignore: prefer_const_constructors
-                                    Get.to(()=> RelatorioVagas());
-                                    },
-                                    child: const Text('Relatorio diário'),
-                                  ),*/
-                                
-                              
-                      
                             ],
                           ),
                         ),
